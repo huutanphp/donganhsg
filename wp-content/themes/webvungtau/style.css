@@ -1,0 +1,43 @@
+/*
+Theme Name: WebVungTau
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+	background: #888; 
+	border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+li.cart-item:hover a:before, li.header-search:hover a:before {
+	display: none;
+}
+.stuck .header-bg-color {
+    background: rgb(0 0 0 / 76%);
+}
+.header-nav-main.nav-line-bottom > li > a:before {
+	background: #ffd900 !important;
+	height: 1px !important;
+}
+#masthead ul li.menu-item a.nav-top-link {
+    color: #000;
+}
+.stuck #masthead ul li.menu-item a.nav-top-link, .home #masthead ul li.menu-item a.nav-top-link {
+	color: #ffffff;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
